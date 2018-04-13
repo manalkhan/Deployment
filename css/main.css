@@ -10,10 +10,10 @@ h1 span.heading-text-1 {
 
 body > .row > [class*='small-'].column-1 {
   min-height: 20vmax;
-  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
-  background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
-  background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
-  background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
+  background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
+  background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
+  background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
   background-attachment: scroll, scroll;
   background-position: left top, left top;
   background-clip: border-box, border-box;
@@ -24,12 +24,14 @@ body > .row > [class*='small-'].column-1 {
   background-blend-mode: normal, normal;
 }
 
-body > .row.row-3 {
-  max-width: none;
+body > .row > [class*='small-'].footer {
+  background-color: #010000;
 }
 
 body > .row.row-2 {
-  max-width: none;
+  min-width: 100vmin;
+  min-height: 0;
+  max-width: 100vmax;
 }
 
 div.responsive-picture.logo {
@@ -57,10 +59,10 @@ div.responsive-picture.logo {
 
   body > .row > [class*='small-'].column-1 {
     min-height: 35vmax;
-    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
-    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
-    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
-    background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
+    background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
     background-attachment: scroll, scroll;
     background-position: left top, left top;
     background-clip: border-box, border-box;
@@ -71,8 +73,22 @@ div.responsive-picture.logo {
     background-blend-mode: normal, normal;
   }
 
-  body > .row.row-3 {
-    max-width: none;
+  body > .row.row-2 {
+    min-width: 100vmin;
+    max-width: 100vmax;
+    background-color: #010000;
+  }
+
+  body.grid-1 {
+    background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
   }
 
   div.responsive-picture.logo {
@@ -101,22 +117,20 @@ div.responsive-picture.logo {
 
   body > .row > [class*='small-'].column-1 {
     min-height: 45vmax;
-    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
-    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
-    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
-    background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
-    background-attachment: scroll, scroll;
-    background-position: left top, left top;
-    background-clip: border-box, border-box;
-    background-origin: padding-box, padding-box;
-    background-size: auto auto, auto auto;
-    background-repeat: no-repeat, no-repeat;
+    background-image: url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+    background-repeat: no-repeat;
 
-    background-blend-mode: normal, normal;
+    background-blend-mode: normal;
   }
 
-  body > .row.row-3 {
-    max-width: none;
+  body > .row.row-2 {
+    min-width: 100vmin;
+    max-width: 100vmax;
   }
 
   div.responsive-picture.logo {
@@ -151,10 +165,10 @@ div.responsive-picture.logo {
   body > .row > [class*='small-'].column-1 {
     padding-right: .937rem;
     min-height: 50vmax;
-    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
-    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
-    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
-    background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('../images/web2.png');
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
+    background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
     background-attachment: scroll, scroll;
     background-position: left top, left top;
     background-clip: border-box, border-box;
@@ -163,10 +177,6 @@ div.responsive-picture.logo {
     background-repeat: no-repeat, no-repeat;
 
     background-blend-mode: normal, normal;
-  }
-
-  body > .row.row-3 {
-    max-width: none;
   }
 
   div.responsive-picture.logo {
@@ -182,7 +192,7 @@ div.responsive-picture.logo {
   }
 }
 
-@media screen and (min-width: 73.1875rem) {
+@media screen and (min-width: 64.0625rem) {
   /* Text Elements */
 
   h1.header1 {
@@ -190,10 +200,6 @@ div.responsive-picture.logo {
     text-align: center;
     text-transform: capitalize;
     font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
-  }
-
-  h1 span.heading-text-4 {
-    text-transform: capitalize;
   }
 
   h1 span.heading-text-5 {
@@ -213,35 +219,55 @@ div.responsive-picture.logo {
   body > .row > [class*='small-'].column-1 {
     position: static;
     display: block;
+    float: left;
     overflow: visible;
     min-height: 55vmax;
     max-height: none;
     height: auto;
-    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 87%), url('../images/web2.png');
-    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 87%), url('../images/web2.png');
-    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 87%), url('../images/web2.png');
-    background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 87%), url('../images/web2.png');
-    background-attachment: scroll, scroll;
-    background-position: left top, left top;
-    background-clip: border-box, border-box;
-    background-origin: padding-box, padding-box;
-    background-size: auto auto, auto auto;
-    background-repeat: no-repeat, no-repeat;
+    background-image: url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+    background-repeat: no-repeat;
     vertical-align: baseline;
 
-    background-blend-mode: normal, normal;
+    background-blend-mode: normal;
   }
 
   body > .row.row-1 {
     max-width: none;
   }
 
-  body > .row.row-2 {
-    max-width: none;
+  body > .row > [class*='small-'].footer {
+    position: static;
+    display: block;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    min-height: 100px;
+    -webkit-transition-delay: 0s, 0s;
+       -moz-transition-delay: 0s, 0s;
+         -o-transition-delay: 0s, 0s;
+            transition-delay: 0s, 0s;
+    -webkit-transition-timing-function: ease, linear;
+       -moz-transition-timing-function: ease, linear;
+         -o-transition-timing-function: ease, linear;
+            transition-timing-function: ease, linear;
+    -webkit-transition-duration: 0s, .3s;
+       -moz-transition-duration: 0s, .3s;
+         -o-transition-duration: 0s, .3s;
+            transition-duration: 0s, .3s;
+    -webkit-transition-property: all, all;
+       -moz-transition-property: all, all;
+         -o-transition-property: all, all;
+            transition-property: all, all;
   }
 
-  body > .row.row-3 {
-    max-width: none;
+  body > .row.row-2 {
+    min-width: 100vmax;
+    min-height: 0;
+    max-width: 100vmax;
   }
 
   div.responsive-picture.logo {

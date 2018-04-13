@@ -115,20 +115,19 @@ img.logo {
   width: 100%;
 }
 .responsive-picture {
-  height: auto;
-  overflow: hidden;
   width: 100%;
+  overflow: hidden;
   max-width: 200px;
   display: block;
 }
 .responsive-picture picture {
   max-width: none;
-  height: auto;
   display: block;
   line-height: 0;
 }
 .responsive-picture img {
   width: 100%;
+  height: 100%;
 }
 /************************************************
 PLaceholder Small Hero Default Styles
@@ -202,13 +201,13 @@ Social Element Default Styles
   font-family: Georgia, Times, 'Times New Roman', serif;
   display: block;
 }
-.social-image {
+a.social-image {
   background-color: #525252;
   border-radius: 3px 3px;
   max-width: 32px;
   display: inline-block;
 }
-.social-image img {
+a.social-image img {
   margin: 0 auto;
   max-width: 100%;
   display: block;
@@ -370,19 +369,65 @@ form.paypal-image input[type=image] {
 /************************************************
  Menu Arrows Styles
 ************************************************/
-.is-accordion-submenu-parent > a::after {
+.button.dropdown {
+  border-top-style: none;
+  border-top-color: inherit;
+}
+.button.dropdown::after {
   border-top-color: inherit;
   border-right-color: transparent;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
-.is-drilldown-submenu-parent > a::after {
+.button.dropdown.hollow::after {
+  border-top-color: inherit;
+}
+.button.dropdown.hollow.primary::after {
+  border-top-color: inherit;
+}
+.button.dropdown.hollow.secondary::after {
+  border-top-color: inherit;
+}
+.button.dropdown.hollow.success::after {
+  border-top-color: inherit;
+}
+.button.dropdown.hollow.warning::after {
+  border-top-color: inherit;
+}
+.button.dropdown.hollow.alert::after {
+  border-top-color: inherit;
+}
+.accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a::after {
+  border-top-color: inherit;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+.submenu-toggle::after {
+  border-top-color: inherit;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+.drilldown .is-drilldown-submenu-parent > a::after {
   border-top-color: transparent;
   border-right-color: transparent;
   border-bottom-color: transparent;
   border-left-color: inherit;
 }
-.js-drilldown-back > a::before {
+.drilldown.align-left .is-drilldown-submenu-parent > a::after {
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: inherit;
+}
+.drilldown.align-right .is-drilldown-submenu-parent > a::after {
+  border-top-color: transparent;
+  border-right-color: inherit;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+.drilldown .js-drilldown-back > a::before {
   border-top-color: transparent;
   border-right-color: inherit;
   border-bottom-color: transparent;
@@ -453,4 +498,28 @@ form.paypal-image input[type=image] {
   border-right-color: transparent;
   border-bottom-color: transparent;
   border-left-color: inherit;
+}
+.tooltip.bottom::before {
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: inherit;
+  border-left-color: transparent;
+}
+.tooltip.top::before {
+  border-top-color: inherit;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+.tooltip.left::before {
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: inherit;
+}
+.tooltip.right::before {
+  border-top-color: transparent;
+  border-right-color: inherit;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
 }
