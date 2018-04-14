@@ -15,10 +15,10 @@ body > .row > [class*='small-'].column-1 {
   background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
   background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
   background-attachment: scroll, scroll;
-  background-position: left top, left top;
+  background-position: left top, center center;
   background-clip: border-box, border-box;
   background-origin: padding-box, padding-box;
-  background-size: auto auto, auto auto;
+  background-size: auto auto, cover;
   background-repeat: no-repeat, no-repeat;
 
   background-blend-mode: normal, normal;
@@ -34,6 +34,75 @@ body > .row.row-2 {
   max-width: 100vmax;
 }
 
+.container.gallery-wrapper {
+  max-width: 1000px;
+}
+
+.container.gallery-content {
+  position: relative;
+  overflow: hidden;
+  margin-top: 5vw;
+}
+
+.container.main-image-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.container#image-1 {
+  z-index: 51;
+  display: none;
+}
+
+.container#image-2 {
+  z-index: 52;
+  display: none;
+}
+
+.container#image-3 {
+  z-index: 53;
+  display: block;
+}
+
+.container#image-4 {
+  z-index: 54;
+  display: none;
+}
+
+.container#image-5 {
+  z-index: 55;
+  display: none;
+}
+
+.container#image-6 {
+  z-index: 56;
+  display: none;
+}
+
+.container.thumbnails-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display:    -moz-box;
+  display: -ms-flexbox;
+  display:         flex;
+  padding-top: 10px;
+}
+
+.container.thumbnail-cont {
+  padding-right: 1px;
+  padding-left: 1px;
+}
+
+.container.button.thumbnail-cont {
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: transparent;
+}
+
 div.responsive-picture.logo {
   background-image: none;
   background-attachment: scroll;
@@ -44,6 +113,48 @@ div.responsive-picture.logo {
   background-repeat: no-repeat;
 
   background-blend-mode: normal;
+}
+
+div.responsive-picture.main-image {
+  margin-top: -80px;
+  max-width: none;
+  max-height: 350px;
+  -webkit-transform: scaleX(1.2) scaleY(1.2);
+     -moz-transform: scaleX(1.2) scaleY(1.2);
+       -o-transform: scaleX(1.2) scaleY(1.2);
+          transform: scaleX(1.2) scaleY(1.2);
+}
+
+div.responsive-picture#placer {
+  opacity: .1;
+}
+
+div.responsive-picture.thumbnail-img {
+  opacity: .5;
+  -webkit-filter: saturate(1) contrast(1) brightness(1) grayscale(.6);
+          filter: saturate(1) contrast(1) brightness(1) grayscale(.6);
+  -webkit-transition-duration: .4s;
+     -moz-transition-duration: .4s;
+       -o-transition-duration: .4s;
+          transition-duration: .4s;
+  -webkit-transition-property: all;
+     -moz-transition-property: all;
+       -o-transition-property: all;
+          transition-property: all;
+}
+
+div.responsive-picture.thumbnail-img:hover {
+  opacity: 1;
+  -webkit-filter: saturate(1) contrast(1) brightness(1) grayscale(0);
+          filter: saturate(1) contrast(1) brightness(1) grayscale(0);
+  -webkit-transition-duration: .4s;
+     -moz-transition-duration: .4s;
+       -o-transition-duration: .4s;
+          transition-duration: .4s;
+  -webkit-transition-property: all;
+     -moz-transition-property: all;
+       -o-transition-property: all;
+          transition-property: all;
 }
 
 @media screen and (min-width: 22.25rem) {
@@ -64,10 +175,10 @@ div.responsive-picture.logo {
     background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
     background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
     background-attachment: scroll, scroll;
-    background-position: left top, left top;
+    background-position: left top, center center;
     background-clip: border-box, border-box;
     background-origin: padding-box, padding-box;
-    background-size: auto auto, auto auto;
+    background-size: auto auto, cover;
     background-repeat: no-repeat, no-repeat;
 
     background-blend-mode: normal, normal;
@@ -102,6 +213,42 @@ div.responsive-picture.logo {
 
     background-blend-mode: normal;
   }
+
+  a.social-image.linkedin {
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
+    background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  a.social-image.instagram_mk {
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
+    background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+}
+
+@media screen and (min-width: 27.5rem) {
+  div.responsive-picture.main-image {
+    max-height: 450px;
+  }
 }
 
 @media screen and (min-width: 40rem) {
@@ -117,20 +264,27 @@ div.responsive-picture.logo {
 
   body > .row > [class*='small-'].column-1 {
     min-height: 45vmax;
-    background-image: url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
-    background-attachment: scroll;
-    background-position: left top;
-    background-clip: border-box;
-    background-origin: padding-box;
-    background-size: auto auto;
-    background-repeat: no-repeat;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
+    background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
+    background-attachment: scroll, scroll;
+    background-position: left top, center center;
+    background-clip: border-box, border-box;
+    background-origin: padding-box, padding-box;
+    background-size: auto auto, cover;
+    background-repeat: no-repeat, no-repeat;
 
-    background-blend-mode: normal;
+    background-blend-mode: normal, normal;
   }
 
   body > .row.row-2 {
     min-width: 100vmin;
     max-width: 100vmax;
+  }
+
+  .container.gallery-content {
+    margin-top: 3vw;
   }
 
   div.responsive-picture.logo {
@@ -143,6 +297,40 @@ div.responsive-picture.logo {
     background-repeat: no-repeat;
 
     background-blend-mode: normal;
+  }
+
+  a.social-image.linkedin {
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
+    background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  a.social-image.instagram_mk {
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
+    background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  div.responsive-picture.main-image {
+    max-height: 650px;
   }
 }
 
@@ -177,6 +365,13 @@ div.responsive-picture.logo {
     background-repeat: no-repeat, no-repeat;
 
     background-blend-mode: normal, normal;
+  }
+
+  .container.gallery-content {
+    margin-top: 2vw;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1000px;
   }
 
   div.responsive-picture.logo {
@@ -224,16 +419,19 @@ div.responsive-picture.logo {
     min-height: 55vmax;
     max-height: none;
     height: auto;
-    background-image: url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
-    background-attachment: scroll;
-    background-position: left top;
-    background-clip: border-box;
-    background-origin: padding-box;
-    background-size: auto auto;
-    background-repeat: no-repeat;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
+    background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
+    background-attachment: scroll, scroll;
+    background-position: left top, center center;
+    background-clip: border-box, border-box;
+    background-origin: padding-box, padding-box;
+    background-size: auto auto, cover;
+    background-repeat: no-repeat, no-repeat;
     vertical-align: baseline;
 
-    background-blend-mode: normal;
+    background-blend-mode: normal, normal;
   }
 
   body > .row.row-1 {
