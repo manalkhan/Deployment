@@ -42,6 +42,10 @@ body > .row.row-2 {
   max-width: 100vmax;
 }
 
+body > .row > [class*='small-'].column-2 {
+  background-color: #383c4d;
+}
+
 .container.gallery-wrapper {
   max-width: 1000px;
 }
@@ -151,6 +155,14 @@ div.responsive-picture.thumbnail-img {
           transition-property: all;
 }
 
+li.list-item a.list-item-text-1 {
+  color: #fff;
+}
+
+li.list-item a.list-item-text-2 {
+  color: #fff;
+}
+
 div.responsive-picture.thumbnail-img:hover {
   opacity: 1;
   -webkit-filter: saturate(1) contrast(1) brightness(1) grayscale(0);
@@ -214,6 +226,10 @@ div.responsive-picture.thumbnail-img:hover {
     background-blend-mode: normal;
   }
 
+  body > .row > [class*='small-'].column-2 {
+    background-color: #383c4d;
+  }
+
   div.responsive-picture.logo {
     background-image: none;
     background-attachment: scroll;
@@ -273,6 +289,10 @@ div.responsive-picture.thumbnail-img:hover {
     background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
   }
 
+  body > .row > [class*='small-'].column-2 {
+    background-color: #383c4d;
+  }
+
   div.responsive-picture.main-image {
     max-height: 450px;
   }
@@ -310,12 +330,16 @@ div.responsive-picture.thumbnail-img:hover {
     background-size: auto auto, cover;
     background-repeat: no-repeat, no-repeat;
 
-    background-blend-mode: normal, normal;
+    background-blend-mode: hard-light, normal;
   }
 
   body > .row.row-2 {
     min-width: 100vmin;
     max-width: 100vmax;
+  }
+
+  body > .row > [class*='small-'].column-2 {
+    background-color: #383c4d;
   }
 
   .container.gallery-content {
@@ -369,6 +393,18 @@ div.responsive-picture.thumbnail-img:hover {
   }
 }
 
+@media screen and (min-width: 56.6875rem) {
+  /* Layout Elements */
+
+  body > .row > [class*='small-'].column-2 {
+    background-color: #383c4d;
+  }
+
+  body > .row > [class*='small-'].column-1 {
+    background-blend-mode: hard-light, normal;
+  }
+}
+
 @media screen and (min-width: 64rem) {
   /* Text Elements */
 
@@ -399,7 +435,7 @@ div.responsive-picture.thumbnail-img:hover {
     background-size: auto auto, cover;
     background-repeat: no-repeat, no-repeat;
 
-    background-blend-mode: normal, normal;
+    background-blend-mode: hard-light, normal;
   }
 
   body > .row > [class*='small-'].column-2 {
