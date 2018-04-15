@@ -6,14 +6,22 @@ h1 span.heading-text-1 {
   font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 }
 
+h1 a.heading-text-3 {
+  color: #fff;
+}
+
+h3 span.heading-text-2 {
+  color: #fff;
+}
+
 /* Layout Elements */
 
 body > .row > [class*='small-'].column-1 {
   min-height: 20vmax;
-  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
-  background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
-  background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
-  background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
+  background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
+  background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
+  background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
   background-attachment: scroll, scroll;
   background-position: left top, center center;
   background-clip: border-box, border-box;
@@ -157,7 +165,7 @@ div.responsive-picture.thumbnail-img:hover {
           transition-property: all;
 }
 
-@media screen and (min-width: 22.25rem) {
+@media screen and (min-width: 19.4375rem) {
   /* Text Elements */
 
   h1 span.heading-text-1 {
@@ -166,14 +174,18 @@ div.responsive-picture.thumbnail-img:hover {
     font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
   }
 
+  h3 span.heading-text-2 {
+    color: #fff;
+  }
+
   /* Layout Elements */
 
   body > .row > [class*='small-'].column-1 {
     min-height: 35vmax;
-    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
-    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
-    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
-    background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
+    background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
     background-attachment: scroll, scroll;
     background-position: left top, center center;
     background-clip: border-box, border-box;
@@ -246,6 +258,21 @@ div.responsive-picture.thumbnail-img:hover {
 }
 
 @media screen and (min-width: 27.5rem) {
+  /* Text Elements */
+
+  h3 span.heading-text-2 {
+    color: #fff;
+  }
+
+  /* Layout Elements */
+
+  body > .row > [class*='small-'].column-1 {
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
+    background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
+  }
+
   div.responsive-picture.main-image {
     max-height: 450px;
   }
@@ -260,14 +287,22 @@ div.responsive-picture.thumbnail-img:hover {
     font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
   }
 
+  h3 span.heading-text-2 {
+    color: #fff;
+  }
+
+  h3.header3 {
+    text-align: center;
+  }
+
   /* Layout Elements */
 
   body > .row > [class*='small-'].column-1 {
     min-height: 45vmax;
-    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
-    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
-    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
-    background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
+    background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
     background-attachment: scroll, scroll;
     background-position: left top, center center;
     background-clip: border-box, border-box;
@@ -353,18 +388,22 @@ div.responsive-picture.thumbnail-img:hover {
   body > .row > [class*='small-'].column-1 {
     padding-right: .937rem;
     min-height: 50vmax;
-    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
-    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
-    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
-    background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
+    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
+    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
+    background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
     background-attachment: scroll, scroll;
-    background-position: left top, left top;
+    background-position: left top, center center;
     background-clip: border-box, border-box;
     background-origin: padding-box, padding-box;
-    background-size: auto auto, auto auto;
+    background-size: auto auto, cover;
     background-repeat: no-repeat, no-repeat;
 
     background-blend-mode: normal, normal;
+  }
+
+  body > .row > [class*='small-'].column-2 {
+    background-color: #383c4d;
   }
 
   .container.gallery-content {
@@ -385,98 +424,20 @@ div.responsive-picture.thumbnail-img:hover {
 
     background-blend-mode: normal;
   }
-}
 
-@media screen and (min-width: 64.0625rem) {
-  /* Text Elements */
-
-  h1.header1 {
-    color: #a1968a;
-    text-align: center;
-    text-transform: capitalize;
-    font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+  li.list-item.list-item-1 {
+    color: #fff;
   }
 
-  h1 span.heading-text-5 {
-    text-transform: capitalize;
+  li.list-item.list-item-2 {
+    color: #fff;
   }
 
-  h1 span.heading-text-9 {
-    text-transform: none;
+  li.list-item a.list-item-text-1 {
+    color: #fff;
   }
 
-  h1 span.heading-text-1 {
-    font-size: 4.375rem;
-  }
-
-  /* Layout Elements */
-
-  body > .row > [class*='small-'].column-1 {
-    position: static;
-    display: block;
-    float: left;
-    overflow: visible;
-    min-height: 55vmax;
-    max-height: none;
-    height: auto;
-    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
-    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
-    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
-    background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38759360-65e7cca6-3f2a-11e8-9398-09cd19ac755e.jpg');
-    background-attachment: scroll, scroll;
-    background-position: left top, center center;
-    background-clip: border-box, border-box;
-    background-origin: padding-box, padding-box;
-    background-size: auto auto, cover;
-    background-repeat: no-repeat, no-repeat;
-    vertical-align: baseline;
-
-    background-blend-mode: normal, normal;
-  }
-
-  body > .row.row-1 {
-    max-width: none;
-  }
-
-  body > .row > [class*='small-'].footer {
-    position: static;
-    display: block;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    min-height: 100px;
-    -webkit-transition-delay: 0s, 0s;
-       -moz-transition-delay: 0s, 0s;
-         -o-transition-delay: 0s, 0s;
-            transition-delay: 0s, 0s;
-    -webkit-transition-timing-function: ease, linear;
-       -moz-transition-timing-function: ease, linear;
-         -o-transition-timing-function: ease, linear;
-            transition-timing-function: ease, linear;
-    -webkit-transition-duration: 0s, .3s;
-       -moz-transition-duration: 0s, .3s;
-         -o-transition-duration: 0s, .3s;
-            transition-duration: 0s, .3s;
-    -webkit-transition-property: all, all;
-       -moz-transition-property: all, all;
-         -o-transition-property: all, all;
-            transition-property: all, all;
-  }
-
-  body > .row.row-2 {
-    min-width: 100vmax;
-    min-height: 0;
-    max-width: 100vmax;
-  }
-
-  div.responsive-picture.logo {
-    background-image: none;
-    background-attachment: scroll;
-    background-position: left top;
-    background-clip: border-box;
-    background-origin: padding-box;
-    background-size: 0 0;
-    background-repeat: no-repeat;
-
-    background-blend-mode: normal;
+  li.list-item a.list-item-text-2 {
+    color: #fff;
   }
 }
