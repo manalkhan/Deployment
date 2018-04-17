@@ -18,18 +18,15 @@ h3 span.heading-text-2 {
 
 body > .row > [class*='small-'].column-1 {
   min-height: 20vmax;
-  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
-  background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
-  background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
-  background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
-  background-attachment: scroll, scroll;
-  background-position: left top, center center;
-  background-clip: border-box, border-box;
-  background-origin: padding-box, padding-box;
-  background-size: auto auto, cover;
-  background-repeat: no-repeat, no-repeat;
+  background-image: url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
+  background-attachment: scroll;
+  background-position: center center;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: cover;
+  background-repeat: no-repeat;
 
-  background-blend-mode: normal, normal;
+  background-blend-mode: normal;
 }
 
 body > .row > [class*='small-'].column-2 {
@@ -145,7 +142,7 @@ li.list-item a.list-item-text-2 {
 }
 
 a.social-image.facebook {
-  max-width: 50px;
+  max-width: 40px;
   background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
   background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
   background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
@@ -161,7 +158,7 @@ a.social-image.facebook {
 }
 
 a.social-image.linkedin {
-  max-width: 50px;
+  max-width: 40px;
   background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
   background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
   background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
@@ -177,7 +174,7 @@ a.social-image.linkedin {
 }
 
 a.social-image.instagram_mk {
-  max-width: 50px;
+  max-width: 40px;
   background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
   background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
   background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
@@ -256,18 +253,15 @@ div.responsive-picture.thumbnail-img:hover {
 
   body > .row > [class*='small-'].column-1 {
     min-height: 35vmax;
-    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
-    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
-    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
-    background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
-    background-attachment: scroll, scroll;
-    background-position: left top, center center;
-    background-clip: border-box, border-box;
-    background-origin: padding-box, padding-box;
-    background-size: auto auto, cover;
-    background-repeat: no-repeat, no-repeat;
+    background-image: url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
+    background-attachment: scroll;
+    background-position: center center;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: cover;
+    background-repeat: no-repeat;
 
-    background-blend-mode: normal, normal;
+    background-blend-mode: normal;
   }
 
   body.grid-1 {
@@ -312,7 +306,7 @@ div.responsive-picture.thumbnail-img:hover {
   }
 
   a.social-image.linkedin {
-    max-width: 100px;
+    max-width: 50px;
     background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
     background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
     background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
@@ -328,7 +322,7 @@ div.responsive-picture.thumbnail-img:hover {
   }
 
   a.social-image.instagram_mk {
-    max-width: 100px;
+    max-width: 50px;
     background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
     background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
     background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
@@ -344,7 +338,7 @@ div.responsive-picture.thumbnail-img:hover {
   }
 
   a.social-image.facebook {
-    max-width: 100px;
+    max-width: 50px;
     background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
     background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
     background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
@@ -367,6 +361,18 @@ div.responsive-picture.thumbnail-img:hover {
     max-width: none;
   }
 
+  body > .row > [class*='small-'].column-1 {
+    background-image: url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
+    background-attachment: scroll;
+    background-position: center center;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
   .container.main-image-wrapper {
     width: 100%;
   }
@@ -384,6 +390,10 @@ div.responsive-picture.thumbnail-img:hover {
   /* Text Elements */
 
   h1.header1 {
+    margin-bottom: .5rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
     color: #fbf4f4;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
@@ -401,18 +411,15 @@ div.responsive-picture.thumbnail-img:hover {
 
   body > .row > [class*='small-'].column-1 {
     min-height: 45vmax;
-    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
-    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
-    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
-    background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
-    background-attachment: scroll, scroll;
-    background-position: left top, center center;
-    background-clip: border-box, border-box;
-    background-origin: padding-box, padding-box;
-    background-size: auto auto, cover;
-    background-repeat: no-repeat, no-repeat;
+    background-image: url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
+    background-attachment: scroll;
+    background-position: center center;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: cover;
+    background-repeat: no-repeat;
 
-    background-blend-mode: hard-light, normal;
+    background-blend-mode: normal;
   }
 
   body > .row > [class*='small-'].column-2 {
@@ -450,7 +457,7 @@ div.responsive-picture.thumbnail-img:hover {
   }
 
   a.social-image.linkedin {
-    max-width: 150px;
+    max-width: 50px;
     background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
     background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
     background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
@@ -466,7 +473,7 @@ div.responsive-picture.thumbnail-img:hover {
   }
 
   a.social-image.instagram_mk {
-    max-width: 150px;
+    max-width: 50px;
     background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
     background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
     background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
@@ -482,7 +489,7 @@ div.responsive-picture.thumbnail-img:hover {
   }
 
   a.social-image.facebook {
-    max-width: 150px;
+    max-width: 50px;
     background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
     background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
     background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%);
@@ -521,18 +528,15 @@ div.responsive-picture.thumbnail-img:hover {
   body > .row > [class*='small-'].column-1 {
     padding-right: .937rem;
     min-height: 50vmax;
-    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
-    background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
-    background-image:      -o-linear-gradient(top, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
-    background-image:         linear-gradient(180deg, rgba(255, 255, 255, .5) 0%, rgba(29, 30, 33, .5) 100%), url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
-    background-attachment: scroll, scroll;
-    background-position: left top, center center;
-    background-clip: border-box, border-box;
-    background-origin: padding-box, padding-box;
-    background-size: auto auto, cover;
-    background-repeat: no-repeat, no-repeat;
+    background-image: url('https://user-images.githubusercontent.com/27669453/38774755-a2451226-4024-11e8-8c45-ea390868d374.jpg');
+    background-attachment: scroll;
+    background-position: center center;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: cover;
+    background-repeat: no-repeat;
 
-    background-blend-mode: hard-light, normal;
+    background-blend-mode: normal;
   }
 
   body > .row > [class*='small-'].column-2 {
